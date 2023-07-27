@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Left-side Holes Spiral Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .spiral-container {
+            max-width: 800px;
+            margin: 50px auto;
+            position: relative;
+        }
+        .spiral-page {
+            position: relative;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        .hole {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+        }
+        .spiral-page .hole:nth-child(1) { top: 30px; left: -5px; }
+        .spiral-page .hole:nth-child(2) { top: 50px; left: -5px; }
+        .spiral-page .hole:nth-child(3) { top: 70px; left: -5px; }
+    </style>
+</head>
+<body>
+    <div class="spiral-container">
+        <div class="spiral-page">
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <h1>Your Content Goes Here</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+</body>
+</html>

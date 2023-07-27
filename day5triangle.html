@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.shape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.triangle {
+    width: 40px;
+    height: 30px;
+    rotate: 30deg;
+    border-bottom: 100px solid blue; 
+    margin: 50px 200px auto auto;
+}
+.triangle1{
+    width: 40px;
+    height: 30px;
+    rotate: -30deg;
+    border-bottom: 100px solid blue; 
+    margin: 50px auto auto 100px;
+}
+</style>
+</head>
+<body>
+    <div class="flex">
+    <div class="shape"></div>
+    <div class="triangle"></div>
+    <div class="triangle1"></div>
+    </div>
+</body>
+</html>
