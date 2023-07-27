@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .flex{
+        width:100%;
+        background-color: white;
+        height: auto;
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-comb{
+        flex-direction: row;
+        width: 60px;
+        height: 600px;
+        background-color:black;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .flex-component{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60px;
+        height: 400px;
+        background-color: purple;
+        rotate: 90deg;
+        border-radius: 20px 20px 20px 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="flex-comb"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+        <div class="flex-component"></div>
+</body>
+</html>

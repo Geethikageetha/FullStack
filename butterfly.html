@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .head{
+            background-color: #222;
+            height: 30px;
+            width:25px ;
+            border-radius: 20px 20px 10px 10px;
+
+        }
+        .head > :nth-child(1){
+            background-color: wheat;
+            height: 30px;
+            width:1px ;
+            position: absolute;
+            border-radius: -25px auto auto 5px;
+        }
+        .head > :nth-child(2){
+            background-color:wheat;
+            height: 30px;
+            width:1px ;
+            position: absolute;
+            border-radius: 25px auto auto 20px;
+        }
+        .top-left{
+            height: 100px;
+            width: 75px;
+            background-color: gray;
+            position: absolute;
+            margin: 50px 100px auto auto;
+            rotate:-60deg;
+            border-radius: 170px 170px 100px 100px;
+        }
+        .top-right{
+            height: 100px;
+            width: 75px;
+            background-color: gray;
+            position: absolute;
+            margin: 50px auto auto 100px ;
+            rotate:60deg;
+            border-radius: 170px 170px 100px 100px;
+        }
+        .chest{
+            height: 50px;
+            width: 30px;
+            background-color: grey;
+            position: absolute;
+            margin-top: 80px;
+            border-radius: 7px 7px 15px 15px ;
+        }
+        .bottom-left{
+            height: 120px;
+            width: 90px;
+            background-color: gray;
+            position: absolute;
+            margin: 200px 100px auto auto;
+            rotate: -120deg;
+            border-radius: 150px 150px 100px 100px;
+        }
+        .bottom-right{
+            height: 120px;
+            width: 90px;
+            background-color: gray;
+            position: absolute;
+            margin: 200px -100px auto auto;
+            rotate: 120deg;
+            border-radius: 150px 150px 100px 100px;
+        }
+        .stomach{
+            height: 120px;
+            width: 35px;
+            background-color: blue;
+            position: absolute;
+            margin-top: 200px;
+            border-radius: 10px 10px 30px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="head">
+            <div class="ant"></div>
+            <div class="ant"></div>
+        </div>
+        <div class="top-left"></div>
+        <div class="top-right"></div>
+        <div class="chest"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
+        <div class="stomach"></div>
+    </div>
+</body>
+</html>
